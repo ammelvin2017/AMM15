@@ -38,3 +38,8 @@ avg_cost_gas_gallons = gas_gallons * national_average
 
 #output the average cost of X barrels of gasoline
 print gas_gallons,'gallons will cost $',avg_cost_gas_gallons
+
+print
+#following input will keep the cmd window from
+#immediately closing after last input
+raw_input('Press enter to close')
