@@ -6,15 +6,15 @@ Author: Wade Rosko and Andrew Melvin
     national average price of one gallon and converts to float.
     Prints the pounds of carbon dioxide produced, the number
     of crude oil barrels needed, and the cost of the gasoline.
+    Press enter at the end to close.
 """
 
 #ask user to input number of gallons of gasoline
 gas_gallons = float(raw_input('Please enter the number of gallons of gasoline: '))
 
 #ask user for national average
-national_average = float(raw_input('Please enter the national average for the'
-                                   'price of 1 gallon of gasoline'
-                                   '(On 4/30/15 it was $2.58):  '))
+national_average = float(raw_input('Please enter the national average for the' \
+                   ' price of 1 gallon of gasoline(On 4/30/15 it was $2.58):  '))
 
 #1 gallon of gasoline produces apporoximately 19.64 pounds of carbon dioxide
 carbon_dioxide_pounds = gas_gallons * 19.64
