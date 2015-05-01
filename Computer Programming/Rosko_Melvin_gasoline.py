@@ -25,7 +25,7 @@ while True:
                    ' price of 1 gallon of gasoline(On 4/30/15 it was $2.58):  '))
         break #to exit the while loop
     except ValueError:
-        print 'The value you enterd is not an integer'
+        print 'The value you entered is not an integer'
         
 #1 gallon of gasoline produces apporoximately 19.64 pounds of carbon dioxide
 carbon_dioxide_pounds = gas_gallons * 19.64
